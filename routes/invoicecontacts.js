@@ -10,7 +10,7 @@ router.get('/:country', function(req, res, next) {
   if(result){
   	res.status(201).json(result);
   } else {
-  	res.status(200).json({"Error Code": "12003","Error Message":"Invoice submissions contact details not defined for input data."});
+  	res.status(200).json({"Error Code": "12003","Error Message":"Invoice submissions contact details not available for input data."});
   }  
 });
 
