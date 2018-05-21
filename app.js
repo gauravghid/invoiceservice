@@ -7,6 +7,7 @@ var logger = require('morgan');
 
 var invoiceRouter = require('./routes/invoice');
 var approvalRouter = require('./routes/approval');
+var invoiceContactsRouter = require('./routes/invoicecontacts');
 
 
 
@@ -25,6 +26,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/invoice', invoiceRouter);
 app.use('/approval', approvalRouter);
+app.use('/invoicecontacts', invoiceContactsRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

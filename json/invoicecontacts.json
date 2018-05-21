@@ -1,0 +1,18 @@
+[
+	{
+		"country":"Taiwan",
+		"email":"TaiwanInvoiceSubmission@abc.com"
+	},
+	{
+		"country":"Philippines",
+		"email":"PhilippinesInvoiceSubmission@abc.com"
+	},
+	{
+		"country":"Japan",
+		"email":"JapanInvoiceSubmission@abc.com"
+	},
+	{
+		"country":"India",
+		"email":"IndiaInvoiceSubmission@abc.com"
+	}
+]
