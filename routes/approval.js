@@ -6,7 +6,7 @@ var router = express.Router();
 router.get('/:designation', function(req, res, next) {
   console.log(req.params.designation);
   var designation = req.params.designation;
-  var result = _.find(approvalData,{"designation": designation});
+  var result = _.find(approvalData,{"designation": designation.toLowerCase()});
   if(result){
   	res.status(201).json(result);
   } else {
